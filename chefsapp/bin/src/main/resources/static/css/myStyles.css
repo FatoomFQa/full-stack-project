@@ -1,0 +1,266 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import
+	url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Lobster&display=swap');
+
+body {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.filterNav {
+	color: white;
+	background-color: #7d0633;
+	margin-top: -0.60%;
+	padding-top: 2%;
+	font-size: 1.1em;
+	font-weight: 600;
+	height: 100vh;
+	border-top: thin solid white;
+}
+
+.colorOne {
+	color: #7d0633 !important;
+}
+
+.colorTwo {
+	color: #31112c !important;
+}
+
+.colorThree {
+	color: #f2a07b !important;
+}
+
+.colorFour {
+	color: #fbdcc4 !important;
+}
+
+.btn-style {
+	background-color: white;
+	color: #7d0633;
+	border: solid thin #7d0633;
+}
+
+.btn-style2 {
+	background-color: white;
+	color: #7d0633;
+	border: solid thin #7d0633;
+	margin-top: 8%;
+}
+
+.btn-style:hover {
+	background-color: #7d0633;
+	color: white;
+	border: solid thin #7d0633;
+}
+
+#userInfo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+}
+
+form {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+}
+
+.h3 {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.carousel-item, .carousel-image {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 3px;
+	font-weight: 600;
+	color: black;
+	transform: translateY(-50%);
+}
+
+.carousel-caption h5 {
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 900;
+}
+
+.carousel-caption p {
+	font-size: 1.75em;
+}
+
+#recipeImg, #recipeImgEdit {
+	width: 100%;
+	height: 50vh;
+	margin-bottom: 2%;
+}
+
+#userProfileImage, #userProfileImageEdit {
+	align-content: center;
+	height: 50vh;
+	margin-bottom: 2%;
+}
+
+#userDetailImage {
+	width: 100%;
+	height: 50vh;
+}
+
+.insItem, .ingItem {
+	border: solid thin #7d0633;
+	padding: 1%;
+	border-radius: 5px;
+	background-color: white;
+	font-weight: 600;
+	margin: 1%;
+}
+
+.ingText, .insText {
+	word-wrap: break-word;
+}
+
+#ingContainer, #instructionsCon, #ingContainerEdit, #instructionsConEdit
+	{
+	padding: 1%;
+}
+
+.detailP {
+	font-size: 1em;
+	font-weight: 500;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 15vw;
+	object-fit: cover;
+}
+
+#recipeDetailImg {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.recipeContainer {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+#recipeDetailName {
+	width: 1100px;
+	background-color: rgb(125, 6, 51, 0.6);
+	font-family: 'Lobster';
+	display: block;
+	color: #fbdcc4;
+	font-size: 55px;
+}
+
+#ingredients {
+	border-right: thin solid #f2a07b;
+}
+
+.chefsContainer {
+	margin: 3% 5%;
+}
+
+.col span {
+	color: #7d0633;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.info {
+	border-right: thin solid #f2a07b;
+	text-align: center;
+	margin-top: 5px;
+	color: #31112c;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.fa {
+	font-size: 30px !important;
+	cursor: pointer;
+}
+
+.checked {
+	color: #fbeb26;
+}
+
+.unchecked {
+	color: black;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.container {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+#recipeDetailName, #recipeDescription {
+	text-align: center;
+	padding: 30px 0;
+}
+
+#instructions, #ingredients {
+	height: 400px;
+}
+
+#shareRecipeButton {
+	margin: 20px 0 100px 0;
+}
+
+.navbar-nav a {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-brand img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:visited,
+	.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:active
+	{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("../images/humburger.svg");
+	border: solid thin white;
+}
